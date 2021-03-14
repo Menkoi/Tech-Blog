@@ -25,7 +25,7 @@ const hbs = exphbs.create({ helpers });
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3006;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
